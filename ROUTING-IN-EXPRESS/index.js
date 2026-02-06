@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!,get request1')
 })
 app.post('/', (req, res) => {
-    console.log(req.body)
+    console.log(req.body.name)
   res.send('Hello World!, post request')
 })
 
