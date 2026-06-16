@@ -12,3 +12,7 @@ app.get('/about', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
+
+
+
+//http://localhost:3000/about?name=annu&age=22&location=india

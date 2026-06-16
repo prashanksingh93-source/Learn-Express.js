@@ -23,3 +23,7 @@ app.delete('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })
+
+
+
+//use postman for data enter in basic routing
