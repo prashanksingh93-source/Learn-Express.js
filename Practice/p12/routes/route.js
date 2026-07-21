@@ -1,5 +1,5 @@
 import express from 'express'
-import { homepage } from '../controller/homepage';
+import { homepage } from '../controller/homepage.js';
 
 const app=express.Router();
 

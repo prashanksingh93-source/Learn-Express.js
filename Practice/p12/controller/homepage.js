@@ -1,4 +1,4 @@
-import { homeData } from '../models/homeData';
+import { homeData } from '../models/homeData.js';
 
 export const homepage=(req,res)=>{
     let data=homeData()
