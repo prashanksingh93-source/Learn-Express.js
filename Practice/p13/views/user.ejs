@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Routes + EJS Conditions</title>
+</head>
+<body>
+   <% if(user){%>
+       <h1> <%=user.name%> </h1>
+       <%if(user.role==="Admin"){%>
+        <h2><%=user.role%> this is admin channel</h2>
+      <% }else if(user.role==="Editor"){%>
+           <h2><%=user.role%> this is admin channel</h2>
+       <%}else{ %>
+        <h2>user.role this is admin channel</h2><%}%>
+   <% }else{%>
+        <p>user not found</p>
+    <%}%>
+    
+</body>
+</html>
